@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Meals To Go</h1>
+
+      <div class="buttonBar">
+        <button id="random">Get Random Recipe</button>
+
+        <div class="filter">
+          <label for="categories">Recipe Categories</label>
+          <select name="categories" id="categories">
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
